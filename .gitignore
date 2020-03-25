@@ -1,0 +1,5 @@
+vendor/
+.env
+
+# Mac
+.DS_Store
