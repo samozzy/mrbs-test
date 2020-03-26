@@ -82,4 +82,9 @@ $db_persist = FALSE;
    to change the default configuration. Do _NOT_ modify systemdefaults.inc.php
    or areadefaults.inc.php.  */
 
+$mrbs_admin = "IT Manager";
+$mrbs_admin_email = "itmanager@newtheatre.org.uk";
+$mrbs_company = "The Nottingham New Theatre";
+$mrbs_company_more_info = "England's only fully student-run theatre";
 
+$weekstarts = 1;
