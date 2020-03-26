@@ -85,6 +85,10 @@ $db_persist = FALSE;
 $mrbs_admin = "IT Manager";
 $mrbs_admin_email = "itmanager@newtheatre.org.uk";
 $mrbs_company = "The Nottingham New Theatre";
-$mrbs_company_more_info = "England's only fully student-run theatre";
+$mrbs_company_url = "https://newtheatre.org.uk";
 
 $weekstarts = 1;
+
+$vocab_override['en']['mrbs'] = "Room Booking System";
+
+$theme = "newtheatre";
