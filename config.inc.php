@@ -53,7 +53,7 @@ $db_host = getenv('DATABASE_URL');
 // can uncomment the following line and specify the port number
 // $db_port = 1234;
 // Database name:
-$db_database = "mrbs";
+// $db_database = "mrbs";
 // Schema name.  This only applies to PostgreSQL and is only necessary if you have more
 // than one schema in your database and also you are using the same MRBS table names in
 // multiple schemas.
