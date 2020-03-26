@@ -8,7 +8,7 @@ namespace MRBS;
 $nnt_purple = "#A54499";
 $nnt_purple_dark = "#5D2656";
 $nnt_purple_light = "#BD5FB1";
-$nnt_purple_lighter = "#CC83C3"
+$nnt_purple_lighter = "#CC83C3";
 $nnt_purple_banner = "#5C2655";
 $nnt_orange = "#FFC425";
 $nnt_orange_dark = "#be8b00";
