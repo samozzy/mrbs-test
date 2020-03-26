@@ -5,16 +5,30 @@ namespace MRBS;
 
 // ***** COLOURS ************************
 // Colours used in MRBS.    All the colours are defined here as PHP variables
+$nnt_purple = "#A54499";
+$nnt_purple_dark = "#5D2656";
+$nnt_purple_light = "#BD5FB1";
+$nnt_purple_lighter = "#CC83C3"
+$nnt_purple_banner = "#5C2655";
+$nnt_orange = "#FFC425";
+$nnt_orange_dark = "#be8b00";
+$nnt_orange_light = "#FFD258";
+$nnt_orange_lighter = "#FFE08B";
+$nnt_alt = "#2D9189";
 
-$body_background_color          = "#150813";    // background colour for the main body
-$standard_font_color            = "#F8F9FA";      // default font color
-$header_font_color              = "#bd5fb1";    // font color for text in headers
-$highlight_font_color           = "#FFC425";        // used for highlighting text (eg links, errors)
-$colour_key_font_color          = "#5B69A6";    // used in the colour key table
+$nnt_background = "#150813";
+$nnt_text = "#eee";
+$nnt_text_dark = "#1c1c1c";
 
-$banner_back_color              = "#5d2656";    // background colour for banner
+$body_background_color          = $nnt_background;    // background colour for the main body
+$standard_font_color            = $nnt_text;      // default font color
+$header_font_color              = $standard_font_color;    // font color for text in headers
+$highlight_font_color           = $nnt_orange_light;        // used for highlighting text (eg links, errors)
+$colour_key_font_color          = $nnt_text_dark;    // used in the colour key table
+
+$banner_back_color              = $nnt_purple_banner;    // background colour for banner
 $banner_border_color            = $banner_back_color;    // border colour for banner
-$banner_font_color              = "#FFFFFF";       // font colour for banner
+$banner_font_color              = $nnt_text;       // font colour for banner
 
 $header_back_color              = "#999999";  // background colour for headers
 
@@ -49,9 +63,9 @@ $site_faq_entry_border_color    = "#C3CCD3";          // used to separate indivi
 
 $trailer_border_color           = $main_table_border_color;
 
-$anchor_link_color              = "#5B69A6";          // link color
-$anchor_visited_color           = "#5B69A6";          // link color (visited)
-$anchor_hover_color             = "red";              // link color (hover)
+$anchor_link_color              = $nnt_orange;          // link color
+$anchor_visited_color           = $nnt_orange_dark;          // link color (visited)
+$anchor_hover_color             = $nnt_orange_light;              // link color (hover)
 
 $anchor_link_color_banner       = $anchor_link_color;          // link color
 $anchor_visited_color_banner    = $anchor_visited_color;       // link color (visited)
@@ -63,9 +77,9 @@ $anchor_hover_color_header      = $anchor_hover_color;         // link color (ho
 
 $column_hidden_color            = $main_table_month_invalid_color;    // hidden days in the week and month views
 $calendar_hidden_color          = "#dae0e4";                          // hidden days in the mini-cals
-$row_even_color                 = "#ffffff";        // even rows in the day and week views
-$row_odd_color                  = "#eeeeee";        // even rows in the day and week views
-$row_highlight_color            = "#ffc0da";        // used for highlighting a row
+$row_even_color                 = "#271024";        // even rows in the day and week views
+$row_odd_color                  = "inherit";        // even rows in the day and week views
+$row_highlight_color            = "#4b1f45";        // used for highlighting a row
 
 $help_highlight_color           = "#ffe6f0";        // highlighting text on the help page
 
