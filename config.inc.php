@@ -43,7 +43,7 @@ $timezone = "Europe/London";
  * Database settings
  ******************/
 $db_heroku = parse_url(getenv("DATABASE_URL"));
-$db_heroku["name"] = ltrim($db["path"], "/");
+$db_heroku["name"] = ltrim($db_heroku["path"], "/");
 // Which database system: "pgsql"=PostgreSQL, "mysql"=MySQL
 $dbsys = "pgsql";
 // Hostname of database server. For pgsql, can use "" instead of localhost
@@ -65,6 +65,7 @@ $db_login = $db_heroku["user"];
 // Database login password:
 $db_password = $db_heroku["pass"];
 //// This will be an environment variable! 
+
 // Prefix for table names.  This will allow multiple installations where only
 // one database is available
 $db_tbl_prefix = "mrbs_";
